@@ -44,6 +44,8 @@ this.setState({
     <nav className="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav"
       style ={{
         backgroundColor: this.state.headerShow ? '#2f2f2f' : 'transparent',
+        paddingTop: this.state.headerShow ?'0px' : '25px',
+        paddingBottom:this.state.headerShow ?'0px' : '25px'
       }}
     >
       <div className="container"
@@ -79,8 +81,8 @@ this.setState({
     <header className="masthead">
       <div className="container">
         <div className="intro-text">
-          <div className="intro-lead-in">Welcome To Our Institute!</div>
-          <div className="intro-heading text-uppercase">It's Nice To Meet You</div>
+          <div className="intro-lead-in">Welcome To Our Institute</div>
+          <div className="intro-heading text-uppercase">Where Maths Is Fun!</div>
           <a className="btn btn-primary btn-xl text-uppercase js-scroll-trigger" href="#services">Tell Me More</a>
         </div>
       </div>
@@ -90,34 +92,34 @@ this.setState({
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">
-            <h2 className="section-heading text-uppercase">Services</h2>
-            <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h2 className="section-heading text-uppercase">MATHEMATICS TUITION CLASS</h2>
+            <h3 className="section-subheading text-muted">We Prepare Students For</h3>
           </div>
         </div>
         <div className="row text-center">
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
               <i className="fa fa-circle fa-stack-2x text-primary"></i>
-              <i className="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
+              <i className="fa fa-book fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="service-heading">E-Commerce</h4>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 className="service-heading">Board Exams</h4>
+            <p className="text-muted">Class 11 and Class 12 <br></br>with Special Test-Series for Class 12. </p>
           </div>
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
               <i className="fa fa-circle fa-stack-2x text-primary"></i>
-              <i className="fa fa-laptop fa-stack-1x fa-inverse"></i>
+              <i className="fa fa-pencil fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="service-heading">Responsive Design</h4>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 className="service-heading">IIT-JEE Mains &amp; Advance </h4>
+            <p className="text-muted">Concept Oriented Teaching for handling complex questions &amp; tricks to solve objective questions.</p>
           </div>
           <div className="col-md-4">
             <span className="fa-stack fa-4x">
               <i className="fa fa-circle fa-stack-2x text-primary"></i>
-              <i className="fa fa-lock fa-stack-1x fa-inverse"></i>
+              <i className="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
             </span>
-            <h4 className="service-heading">Web Security</h4>
-            <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
+            <h4 className="service-heading">College Level Mathematics</h4>
+            <p className="text-muted">Advance Mathematics for College Students </p>
           </div>
         </div>
       </div>
@@ -131,7 +133,7 @@ this.setState({
         <div className="row">
           <div className="col-lg-12 text-center">
             <h2 className="section-heading text-uppercase">About</h2>
-            <h3 className="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+            <h3 className="section-subheading text-muted">Our Ideology</h3>
           </div>
         </div>
         <div className="row">
@@ -143,11 +145,11 @@ this.setState({
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
-                    <h4>2009-2011</h4>
-                    <h4 className="subheading">Our Humble Beginnings</h4>
+                    <h4>Focus on Core Concepts</h4>
+                    {/* <h4 className="subheading">Our Humble Beginnings</h4> */}
                   </div>
                   <div className="timeline-body">
-                    <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
+                    <p className="text-muted">We believe </p>
                   </div>
                 </div>
               </li>
@@ -157,8 +159,8 @@ this.setState({
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
-                    <h4>March 2011</h4>
-                    <h4 className="subheading">An Agency is Born</h4>
+                    <h4>Individual Attention</h4>
+                    {/* <h4 className="subheading">An Agency is Born</h4> */}
                   </div>
                   <div className="timeline-body">
                     <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
@@ -185,8 +187,8 @@ this.setState({
                 </div>
                 <div className="timeline-panel">
                   <div className="timeline-heading">
-                    <h4>July 2014</h4>
-                    <h4 className="subheading">Phase Two Expansion</h4>
+                    <h4>Test Series</h4>
+                    {/* <h4 className="subheading">Phase Two Expansion</h4> */}
                   </div>
                   <div className="timeline-body">
                     <p className="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
